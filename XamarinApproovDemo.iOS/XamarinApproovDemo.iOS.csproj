@@ -139,6 +139,12 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\approov.png.imageset\approov.png" />
+    <ImageAsset Include="Assets.xcassets\approov.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\hello.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\hello.png.imageset\hello.png" />
+    <ImageAsset Include="Assets.xcassets\confused.png.imageset\confused.png" />
+    <ImageAsset Include="Assets.xcassets\confused.png.imageset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -155,5 +161,18 @@
       <Project>{C84C6F59-E95C-4A95-AE13-866FCB5CAA0C}</Project>
       <Name>XamarinApproovDemo</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XamarinApproov\XamarinApproov.csproj">
+      <Project>{2722EC7D-C8AA-4B3B-843C-C68BED2D0597}</Project>
+      <Name>XamarinApproov</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XamarinApproov.iOS\XamarinApproov.iOS.csproj">
+      <Project>{15FD3D98-9AE1-4F6E-91DE-7B5519F8F039}</Project>
+      <Name>XamarinApproov.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\approov.png.imageset\" />
+    <Folder Include="Assets.xcassets\hello.png.imageset\" />
+    <Folder Include="Assets.xcassets\confused.png.imageset\" />
   </ItemGroup>
 </Project>

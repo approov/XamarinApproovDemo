@@ -5,6 +5,9 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using XamarinApproov;
+using XamarinApproov.iOS;
+
 namespace XamarinApproovDemo.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -24,6 +27,9 @@ namespace XamarinApproovDemo.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            // Set up shared iOS Approover
+            Approover.Shared = new IosApproover();
 
             return base.FinishedLaunching(app, options);
         }

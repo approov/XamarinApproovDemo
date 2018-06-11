@@ -10,8 +10,8 @@
         <Label x:Name="statusLabel" Margin="10,20,10,20" Text="" />
 
         <StackLayout Margin="10,10,10,10" Orientation="Horizontal" HorizontalOptions="Fill">
-            <Button Text="Hello" Clicked="OnHello" />
-            <Button Text="Shape" Clicked="OnShape" />
+            <Button Text="Hello" Margin="10,10,20,10" Clicked="OnHello" />
+            <Button Text="Shape" Margin="20,10,10,10" Clicked="OnShape" />
         </StackLayout>
 
     </FlexLayout>

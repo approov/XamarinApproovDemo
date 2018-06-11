@@ -9,7 +9,6 @@ using Com.Criticalblue.Attestationlibrary;
 
 namespace XamarinApproov.Droid
 {
-
     public class TokenCB : Java.Lang.Object, ITokenInterface
     {
         TaskCompletionSource<string> tcs;
@@ -43,7 +42,6 @@ namespace XamarinApproov.Droid
 
     public class AndroidApproover : IApproover
     {
-
         private const string TAG = "APPRROOV_INIT";
 
         private Context context;
